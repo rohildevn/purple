@@ -34,6 +34,16 @@ body {
     height: 450px;
 }
 
+
+.table {
+  margin-bottom: 6%;
+    width: 100%;
+    display: flex;
+     display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
 .card--1 .card__img, .card--1 .card__img--hover {
     background-image: url('../img/1.png');
 }
