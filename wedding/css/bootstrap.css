@@ -390,6 +390,8 @@ h6, .h6 {
 
 .lead {
   font-size:1.0625rem;
+  letter-spacing: 1px;
+  font-family: 'Montserrat';
 }
 
 .display-1 {
