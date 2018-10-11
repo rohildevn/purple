@@ -17,7 +17,7 @@
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
-  --gray-dark: #343a40;
+  --gray-dark: #1b1b1b;
   --primary: #007bff;
   --secondary: #6c757d;
   --success: #28a745;
@@ -573,7 +573,7 @@ pre code {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 1200px;
   }
 }
 
@@ -595,8 +595,8 @@ pre code {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: inherit;
-  flex-wrap: inherit;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -6162,7 +6162,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #111111 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -6173,6 +6173,10 @@ button.bg-dark:focus {
 
 .bg-white {
   background-color: #fff !important;
+}
+
+.bg-gray {
+  background-color: #1b1b1b !important;
 }
 
 .bg-transparent {
@@ -7439,6 +7443,7 @@ button.bg-dark:focus {
 .mb-0,
 .my-0 {
   margin-bottom: 0 !important;
+  color: #d3d3d3;
 }
 
 .ml-0,
@@ -7552,7 +7557,7 @@ button.bg-dark:focus {
 
 .mt-5,
 .my-5 {
-  margin-top: 3rem !important;
+  margin-top: 0rem !important;
 }
 
 .mr-5,

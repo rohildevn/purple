@@ -264,7 +264,7 @@ section.hero   .inner-hero {
 }
 .mobile-but  .lines:after,
 .mobile-but  .lines:before {
-    background: #ffffff;
+    background: #000000;
 }
 .toggle-mobile-but.active   .mobile-but   .lines:after {
     transform: translate(0px, -1px) rotate(45deg);
@@ -348,7 +348,8 @@ p.block-intro{
 
 .package-header{
     position: relative;
-    height: 47px;
+    height: 55px;
+    
 }
 
 .package-header h5 span{
@@ -751,7 +752,7 @@ p.block-intro{
 }
 
 .footer a.top{
-    color: #ffffff;
+    color: #000000;
     font-size: 1.675rem;
     display: inline-block;
 }
@@ -772,7 +773,7 @@ p.block-intro{
     .header .left-part,
     .header .right-part {float: none;display: block;}
     .header .left-part {margin-left: 1rem;}
-    .header {background-color: #1b1b1b;padding:.375rem 0;}
+    .header {padding:.375rem 0;}
     .header .logo {margin-top: 0;}
     .header .logo img {margin-top: .4125rem;}
     .mobile-but {display: block;}

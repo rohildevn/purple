@@ -573,7 +573,7 @@ pre code {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 1200px;
   }
 }
 
@@ -595,8 +595,8 @@ pre code {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: inherit;
-  flex-wrap: inherit;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -7502,7 +7502,7 @@ button.bg-dark:focus {
 .mt-3,
 .my-3 {
   font-family: 'Montserrat';
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
   font-size: 15px;
   color: #6c757d;
   margin-top: 1rem !important;
@@ -7555,7 +7555,7 @@ button.bg-dark:focus {
 
 .mt-5,
 .my-5 {
-  margin-top: 3rem !important;
+  margin-top: 0rem;
 }
 
 .mr-5,
