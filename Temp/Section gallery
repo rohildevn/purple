@@ -1,0 +1,139 @@
+ <!--Gallery section-->
+         <!--<section id="gallery" class="gallery" style="background-color: #111111;" >
+            
+            <div class="block-content">
+               <div class="col-lg-4">
+                  <div class="block-gallery people">
+                     <img src="img/gallery/1.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="block-gallery nature">
+                     <img src="img/gallery/6.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="block-gallery architecture">
+                     <img src="img/gallery/8.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="block-gallery nature">
+                     <img src="img/gallery/4.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="block-gallery architecture">
+                     <img src="img/gallery/10.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="block-gallery people">
+                     <img src="img/gallery/2.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="block-gallery nature">
+                     <img src="img/gallery/7.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="block-gallery people">
+                     <img src="img/gallery/3.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="block-gallery architecture">
+                     <img src="img/gallery/9.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="block-gallery black-white">
+                     <img src="img/gallery/12.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="block-gallery black-white">
+                     <img src="img/gallery/11.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="block-gallery nature">
+                     <img src="img/gallery/5.jpg" alt="">
+                     <div class="block-cat">
+                        <a href="album.html">
+                           <h6><span></span></h6>
+                           <i class="icon-plus-1"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section> -->
+         <!--End gallery section-->

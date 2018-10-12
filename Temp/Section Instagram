@@ -1,0 +1,17 @@
+<!--Instgaram section-->
+          <!-- As a general rule, include a heading (h1-h6) as a child of each section and article element for screen readers purposes-->
+         <section class="instagram">
+            <h1 class="uppercase indent">Instagram feed</h1>
+            <div class="block-content front-p text-center">
+               <div class="height-insta ">
+                  <img class="mb-0 insta-btn-frame  " src="img/insta-btn-frame.png" alt="">
+                  <div class="block-content">
+                     <a href="https://www.instagram.com/purplechutneyevents" target="_blank"><i class="icon-instagram"></i>purple photography</a>
+                  </div>
+               </div>
+            </div>
+            <div id="block-stream" class="ri-grid ri-grid-size-2 ">
+               <ul id="instafeed" class="insta-Feed"></ul>
+            </div>
+         </section>
+         <!--End instgaram section-->
