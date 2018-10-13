@@ -46,6 +46,7 @@
 
     function mainHeroResize() {
         $(".main-slider .slides li").css('height', $(window).height());
+        $(".main-slider-video .slides li").css('height', $(window).height());
     }
 
     $(function() {
@@ -69,6 +70,14 @@
         animationSpeed: 500
     });
 
+    $('.main-slider-video').flexslider({
+        animation: "fade",
+        slideshow: false,
+        directionNav: true,
+        controlNav: false,
+        pauseOnAction: false,
+        animationSpeed: 500
+    });
 
     $('.review-slider').flexslider({
         animation: "slide",

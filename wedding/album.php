@@ -39,18 +39,6 @@
             <!--Main slider-->
             <div class="main-slider slider flexslider">
                <ul class="slides">
-                  
-                  <?php
-                  
-                  print "<li> <div class='background-img overlay'>
-                        <img src='img/gallery/album/1.jpg' alt=''>
-                     </div>
-                     <div class='block-cat'>
-                        
-                     </div>
-                  </li'>';
-                  
-                  ?>
                   <li>
                      <div class="background-img overlay">
                         <img src="img/gallery/album/1.jpg" alt="">

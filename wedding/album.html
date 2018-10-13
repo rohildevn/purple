@@ -38,50 +38,16 @@
          <section class="hero">
             <!--Main slider-->
             <div class="main-slider slider flexslider">
-               <ul class="slides">
-                  <li>
-                     <div class="background-img overlay">
-                        <img src="img/gallery/album/1.jpg" alt="">
-                     </div>
-                     <div class="block-cat">
-                        
-                     </div>
-                  </li>
-                  <li>
-                     <div class="background-img overlay">
-                        <img src="img/gallery/album/2.jpg" alt="">
-                     </div>
-                     <div class="block-cat">
-                        
-                     </div>
-                  </li>
-                  <li>
-                     <div class="background-img overlay">
-                        <img src="img/gallery/album/3.jpg" alt="">
-                     </div>
-                     <div class="block-cat">
-                        
-                     </div>
-                  </li>
-                  
-                  <li>
-                     <div class="background-img overlay">
-                        <img src="img/gallery/album/4.jpg" alt="">
-                     </div>
-                     <div class="block-cat">
-                       
-                     </div>
-                  </li>
-                  
-                    <li>
-                     <div class="background-img overlay">
-                        <img src="img/gallery/album/5.jpg" alt="">
-                     </div>
-                     <div class="block-cat">
-                       
-                     </div>
-                  </li>
-                  
+               <ul class="slides">              
+                  <script type="text/javascript">  
+                  var i;
+                  for (i = 1; i <= 126; i++) {
+                     document.write("<li> <div class='background-img'>");
+                     document.write("<img src='img/gallery/album/"+ i +".jpg' />");
+                     document.write("</div><div class='block-cat'></div></li>")
+                     i++;
+                  }           
+                  </script>
                </ul>
             </div>
             <!--End main slider-->
@@ -105,6 +71,7 @@
                         <li><a class="scroll" href="index.html#package">Package</a></li>
                         <li><a class="scroll" href="index.html#gallery">Gallery</a></li>
                         <li><a class="scroll" href="index.html#contact">Contact</a></li>
+                        <li><a class="scroll" href="index.html"><span style="border-style: solid; border-width: 1px; border-radius: 10px; border-color: #000; padding: 5px; margin-top: -6px; background-color: #000; color: #fff;">Wedding</span></a></li>
                      </ul>
                   </nav>
                </div>
@@ -120,15 +87,15 @@
             <!-- As a general rule, include a heading (h1-h6) as a child of each section and article element for screen readers purposes-->
             <h1 class="uppercase indent">Album nav</h1>
             <div class="background-img ">
-               <img src="img/6.jpg" alt="">
+               
             </div>
             <div class="block-content front-p text-center">
                <div class="height-album ">
                   <img class="mb-0 menu-album-frame  " src="img/menu-album-frame.png" alt="">
                   <div class="block-album-nav">
                      <ul class="list-inline">
-                        <li class="list-inline-item"><a href="#" >previous album</a></li>
-                        <li class="list-inline-item"><a href="#" >next album</a></li>
+                        <li class="list-inline-item"><a href="index.html" >Back</a></li>
+                        
                      </ul>
                   </div>
                </div>
