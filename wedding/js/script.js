@@ -21,15 +21,15 @@ $(function() {
   
   // contact form animations
   $('#contact1').click(function() {
-    $('#contactForm').fadeToggle();
+    $('#contactForm1').fadeToggle();
   })
   $(document).mouseup(function (e) {
-    var container = $("#contactForm");
+    var container1 = $("#contactForm1");
 
-    if (!container.is(e.target) // if the target of the click isn't the container...
-        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    if (!container1.is(e.target) // if the target of the click isn't the container...
+        && container1.has(e.target).length === 0) // ... nor a descendant of the container
     {
-        container.fadeOut();
+        container1.fadeOut();
     }
   });
   
@@ -39,15 +39,15 @@ $(function() {
   
   // contact form animations
   $('#contact2').click(function() {
-    $('#contactForm').fadeToggle();
+    $('#contactForm2').fadeToggle();
   })
   $(document).mouseup(function (e) {
-    var container = $("#contactForm");
+    var container2 = $("#contactForm2");
 
-    if (!container.is(e.target) // if the target of the click isn't the container...
-        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    if (!container2.is(e.target) // if the target of the click isn't the container...
+        && container2.has(e.target).length === 0) // ... nor a descendant of the container
     {
-        container.fadeOut();
+        container2.fadeOut();
     }
   });
   
