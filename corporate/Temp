@@ -1,0 +1,42 @@
+ <!--Quote section-->
+         <section class="quote main">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row justify-content-center">
+                  <div class="col-12 col-md-10 col-lg-7">
+                     <div class="block-content text-center ">
+                        <div class="review-slider flexslider">
+                           <ul class="slides">
+                              <li>
+                                 <blockquote class="blockquote">
+                                    
+                                    <p class="mb-4">It’s one thing to make a picture of what a person looks like, it’s another thing to make a portrait <br>of who they are.</p>
+                                    <div class="quote-info">
+                                       <img src="img/4.png" alt="">
+                                       <h6>Sara Burnley<span>film director</span></h6>
+                                    </div>
+                                 </blockquote>
+                              </li>
+                              <li>
+                                 <blockquote class="blockquote">
+                                   
+                                    <p class="mb-4">
+                                       It’s one thing to make a picture of what a person looks like, it’s another thing to make a portrait <br>of who they are.
+                                    </p>
+                                    <div class="quote-info">
+                                       <img src="img/5.png" alt="">
+                                       <h6>Ahmed Moreno<span>Model</span></h6>
+                                    </div>
+                                 </blockquote>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End quote section-->
