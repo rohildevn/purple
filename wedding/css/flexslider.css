@@ -58,25 +58,24 @@ html[xmlns] .slides {display: block;}
 	cursor: pointer;
 	top:50%;
 	transform: translateY(-50%);
-	border-radius:8px;
-	width:45px;
-	height:45px;
+	border-radius:6px;
+	width:35px;
+	height:35px;
 	text-align:center;
-	background-image: linear-gradient(45deg, #93a5cf , #e4efe9);
-	box-shadow: 3px 8px 20px rgba(0,0,0,0.3);;
+	background: rgba(255,255,255,.2);
 }
 
 
 .flex-direction-nav a i{
 	position: relative;
-	top: 14px;
+	top: 8px;
 }
 
 .flex-direction-nav a.flex-next i{
 	left: 0;
 }
 
-.flex-direction-nav a:hover{background-image: linear-gradient(-90deg, #243b55 , #243b55);}
+.flex-direction-nav a:hover{background: rgba(255,255,255,.3);}
 .flex-control-nav, .flex-direction-nav a  {z-index: 50;	-webkit-transition: all 0.5s ease 0s;
 	-moz-transition: all 0.5s ease 0s;
 	-ms-transition: all 0.5s ease 0s;
