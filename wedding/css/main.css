@@ -20,14 +20,14 @@
     10.Mediaqueries
 
 
-#contact { 
-   /* Chrome/Safari */        
+#contact {
+   /* Chrome/Safari */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+ */
   -webkit-user-select: none;
   margin: 4em auto;
-  width: 100px; 
-  height: 30px; 
+  width: 100px;
+  height: 30px;
   line-height: 30px;
   background: teal;
   color: white;
@@ -40,10 +40,10 @@
 #contact:hover { background: #666; }
 #contact:active { background: #444; }
 
-#contactForm { 
+#contactForm {
   display: none;
   z-index: 111111;
-  background-image: linear-gradient(-90deg, #141e30 , #243b55); 
+  background-image: linear-gradient(-90deg, #141e30 , #243b55);
   padding: 2em;
   width: 400px;
   text-align: center;
@@ -54,13 +54,13 @@
   -webkit-transform: translate(-50%,-50%);
   border-radius: 30px;
   box-shadow: 8px 15px 60px #111111;
-  
+
 }
 
-#contactForm1 { 
+#contactForm1 {
   display: none;
   z-index: 111111;
-  background-image: linear-gradient(-90deg, #141e30 , #243b55); 
+  background-image: linear-gradient(-90deg, #141e30 , #243b55);
   padding: 2em;
   width: 400px;
   text-align: center;
@@ -71,13 +71,13 @@
   -webkit-transform: translate(-50%,-50%);
   border-radius: 30px;
   box-shadow: 8px 15px 60px #111111;
-  
+
 }
 
-#contactForm2 { 
+#contactForm2 {
   display: none;
   z-index: 111111;
-  background-image: linear-gradient(-90deg, #141e30 , #243b55); 
+  background-image: linear-gradient(-90deg, #141e30 , #243b55);
   padding: 2em;
   width: 400px;
   text-align: center;
@@ -88,13 +88,13 @@
   -webkit-transform: translate(-50%,-50%);
   border-radius: 30px;
   box-shadow: 8px 15px 60px #111111;
-  
+
 }
 
-#contactForm3 { 
+#contactForm3 {
   display: none;
   z-index: 111111;
-  background-image: linear-gradient(-90deg, #141e30 , #243b55); 
+  background-image: linear-gradient(-90deg, #141e30 , #243b55);
   padding: 2em;
   width: 400px;
   text-align: center;
@@ -105,22 +105,22 @@
   -webkit-transform: translate(-50%,-50%);
   border-radius: 30px;
   box-shadow: 8px 15px 60px #111111;
-  
+
 }
 
-input, textarea { 
+input, textarea {
   margin: .8em auto;
-  font-family: inherit; 
-  text-transform: inherit; 
+  font-family: inherit;
+  text-transform: inherit;
   font-size: inherit;
-  
-  display: block; 
-  width: 280px; 
+
+  display: block;
+  width: 280px;
   padding: .4em;
 }
 textarea { height: 80px; resize: none; }
 
-.formTxt { 
+.formTxt {
   width: 300px;
   display: inline-block;
   border-radius: 20px;
@@ -134,11 +134,11 @@ textarea { height: 80px; resize: none; }
   height: 40px;
 }
 
-.formBtn { 
+.formBtn {
   width: 140px;
   display: inline-block;
   border-radius: 20px;
-  background-image: linear-gradient(-90deg, #141e30 , #243b55);  
+  background-image: linear-gradient(-90deg, #141e30 , #243b55);
   color: #fff;
   font-weight: 100;
   font-size: 1em;
@@ -217,7 +217,7 @@ textarea { height: 80px; resize: none; }
     0%, 100% {
         stroke: #ffffff;
     }
-    
+
 }
 @keyframes spinner-dash {
     0% {
@@ -445,7 +445,7 @@ section.hero   .inner-hero {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1px;
     list-style: none;
-    
+
 }
 .main-nav li  a {
     color: #fff;
@@ -519,7 +519,7 @@ p.block-intro{
 
 
 .package-body li{
-    line-height: 1.7;
+    line-height: 1.9;
 }
 
 
@@ -700,7 +700,7 @@ p.block-intro{
     height: 1px;
     position: absolute;
     top:18px;
-    
+
 }
 
 .disable:before{
@@ -815,14 +815,14 @@ p.block-intro{
 
 .ri-grid ul {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
-} 
+}
 
 .ri-grid ul li {
     -webkit-perspective: 400px;
     -moz-perspective: 400px;
     -o-perspective: 400px;
     -ms-perspective: 400px;
-    perspective: 400px; 
+    perspective: 400px;
     margin: 0;
     padding: 0;
     float: left;
@@ -921,7 +921,7 @@ p.block-intro{
 /*Media queries*/
 
 @media  screen and (max-width: 1366px) {
-    
+
 }
 
 @media all and (max-width: 990px) {
@@ -946,12 +946,12 @@ p.block-intro{
     input,
     textarea {
         -webkit-appearance: none;
-    }   
+    }
 
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
-			
+
 			section.main, .main {padding-top: 5.42857rem; padding-bottom: 5.42857rem;}
     		h6, .h6{font-size: .9rem;}
 			.block-gallery .block-cat h6 span, .main-slider .block-cat h6 span, .blockquote .quote-info h6 span{font-size: .7525rem;}
@@ -959,12 +959,12 @@ p.block-intro{
 
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)  and (orientation: portrait){
-			
+
 			section.main, .main {padding-top: 5.42857rem; padding-bottom: 5.42857rem;}
 			.blockquote p{font-size: 1.875rem;}
 			h6, .h6{font-size: .9rem;}
 			.block-gallery .block-cat h6 span, .main-slider .block-cat h6 span, .blockquote .quote-info h6 span{font-size: .7525rem;}
-    
+
 }
 
 
@@ -1007,12 +1007,12 @@ p.block-intro{
     .block-package{margin-bottom: 4rem;}
     .blockquote p{font-size: 1.875rem;}
     .blockquote img.quote{width: 15% !important;}
-    .row .col-12.col-lg-4:last-child .block-package{margin-bottom: 0;}  
+    .row .col-12.col-lg-4:last-child .block-package{margin-bottom: 0;}
     section.album .col-12.col-lg-5.offset-lg-1{margin-top:1rem; }
     .height-filter img.menu-filter-frame{max-height: 45%;top:22px;}
     .main-nav li {font-size:.6875rem;}
 
-    
+
 }
 
 
@@ -1049,7 +1049,7 @@ p.block-intro{
     section.album .col-12.col-lg-5.offset-lg-1{margin-top:1rem; }
 
 
-   
+
 }
 @media only screen and (max-width: 479px) {
     input,
@@ -1082,12 +1082,12 @@ p.block-intro{
     .block-package{margin-bottom: 2rem;}
     .blockquote p{font-size: 1.375rem;}
     .blockquote img.quote{width: 20% !important;}
-    .row .col-12.col-lg-4:last-child .block-package{margin-bottom: 0;}  
+    .row .col-12.col-lg-4:last-child .block-package{margin-bottom: 0;}
     .height-filter img.menu-filter-frame, .height-album img.menu-album-frame{display: none;}
     .block-info .block-name{min-width: 190px;}
     section.album .col-12.col-lg-5.offset-lg-1{margin-top:1rem; }
 
-   
-    
+
+
 }
 /*End media queries*/
